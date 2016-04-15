@@ -62,12 +62,9 @@ html, body{
 
 .name { /* Header, my.iit.edu text,  */
 	text-align: center;
-	font-weight: bold;
 	font-size: 3em;
 	text-decoration: none;
-	word-spacing:-1em;
-	position:relative;
-	overflow: hidden;
+	word-spacing:-0.25em;
 	margin-top: 0.8em;
   }
 
@@ -124,7 +121,7 @@ body{
 	Padding: 10px;
 }
 .form{
-	  margin: auto;
+	  margin: 0 auto;
   	position: relative;
   	width: 25%;
   	height:10em;
@@ -139,7 +136,12 @@ body{
   	
 }
 
-
+label {
+    /* To make sure that all labels have the same size and are properly aligned */
+    display: inline-block;
+    width: 8em;
+	  text-align: right;
+}
 
 /* Tablet Landscape */
 @media screen and (max-width: 1060px) {
