@@ -50,34 +50,26 @@ table {
 
 
      /*.....................*/
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+html, body{
+	font-family: 'Roboto', sans-serif;
+}
 
 .headwrapper {
 	background-color:black;
 
 }
-.headwrapper .logo{
-	margin:10px;
-	height:120px;
-	max-width: 100%;
-	padding:6px;
-	
-  
-}
 
-.name {
-	
+.name { /* Header, my.iit.edu text,  */
 	text-align: center;
 	font-weight: bold;
-	font-size: 5em;
+	font-size: 3em;
 	text-decoration: none;
-	word-spacing:-6px;
+	word-spacing:-1em;
 	position:relative;
 	overflow: hidden;
-	margin-top: -60px;
-  	padding:2px;
-  	
-	
-}
+	margin-top: 0.8em;
+  }
 
 
 
@@ -101,24 +93,20 @@ table {
 
 .headwrapper #nav{
 	float:right;
-	margin-top: -150px;
-	font-size: 1.5em;
-	padding-right: 5px;
+	margin-top: -2em;
+	font-size: 1.2em;
+	padding-right: 3em;
 	
 }
 .headwrapper #nav li{
 	position: relative;
         color: Red;
+        display: inline-block;
       
-        display: block;
-        height: 40px;
-	padding: 1px;
 
 }
 #nav li a{
 	color: #f3f3f3;
-    	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
-
 }
 
 #nav li:hover > a {
@@ -136,23 +124,22 @@ body{
 	Padding: 10px;
 }
 .form{
-	
-  	margin: auto;
- 	position: relative;
-  	width: 300px;
-  	height: 200px;
-  	font-size: 14px;
-  	font-style: italic;
-  	line-height: 24px;
-  	font-weight: bold;
+	  margin: auto;
+  	position: relative;
+  	width: 25%;
+  	height:10em;
+  	font-size: 1em;
+  	line-height: 2em;
   	color: #FF0000;
-  	text-decoration: none;
   	border-radius: 10px;
-  	padding: 10px;
+  	padding: 1em;
   	border: 10px solid #C11B17 ;
-	box-sizing: border-box;
+	  background-color: #FAFAFA;
+	  box-sizing: border-box;
   	
 }
+
+
 
 /* Tablet Landscape */
 @media screen and (max-width: 1060px) {
