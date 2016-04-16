@@ -51,8 +51,11 @@ table {
 
      /*.....................*/
 @import url(https://fonts.googleapis.com/css?family=Roboto);
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200);
 html, body{
-	font-family: 'Roboto', sans-serif;
+	background-color:#D1D0CE;
+	font-family:Roboto, sans-serif;
 }
 
 .headwrapper {
@@ -68,10 +71,11 @@ html, body{
 }
 .name { /* Header, my.iit.edu text,  */
 	text-align: center;
-	font-size: 3em;
+	font-size: 5em;
 	text-decoration: none;
 	word-spacing:-0.25em;
 	margin-top: -1em;
+	overflow:hidden;
   }
 
 
