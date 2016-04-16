@@ -57,15 +57,21 @@ html, body{
 
 .headwrapper {
 	background-color:black;
+	width:auto;
 
 }
 
+.headwrapper .logo{
+	max-width:100%;
+	background-color:white;
+	height:auto;
+}
 .name { /* Header, my.iit.edu text,  */
 	text-align: center;
 	font-size: 3em;
 	text-decoration: none;
 	word-spacing:-0.25em;
-	margin-top: -0.8em;
+	margin-top: -1em;
   }
 
 
@@ -121,14 +127,14 @@ body{
 .form{
 	  margin: 0 auto;
   	position: relative;
-  	width: 25%;
-  	height:10em;
+  	width: 30%;
+  	height:auto;
   	font-size: 1em;
   	line-height: 2em;
   	color: #FF0000;
   	border-radius: 10px;
   	padding: 1em;
-  	border: 10px solid #C11B17 ;
+  	border: 5px solid #C11B17 ;
 	  background-color: #FAFAFA;
 	  box-sizing: border-box;
   	
@@ -138,9 +144,13 @@ label {
     /* To make sure that all labels have the same size and are properly aligned */
     display: inline-block;
     width: 8em;
-	  text-align: right;
+    text-align: start;
 }
 
+.form button{
+	margin:1em;
+	margin-left: 11.5em;
+}
 
 /* Tablet Landscape */
 @media screen and (max-width: 1060px) {
