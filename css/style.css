@@ -140,6 +140,12 @@ body{
   	
 }
 
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+
 label {
     /* To make sure that all labels have the same size and are properly aligned */
     display: inline-block;
@@ -175,6 +181,5 @@ label {
         content: attr(data-src-800px, url);
     }
 }
-
 
 
