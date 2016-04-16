@@ -26,7 +26,18 @@
 		<li><a href="blackboard.iit.edu">Blackboard</a></li>
 		<li><a href="index.html">Logout</a></li>
 	</nav>
-
+	<table>
+	<tr>
+	<th>IIT Today</th>
+	<td>information</td>
+	</tr>
+	</table>
+	<table>
+	<tr>
+	<th>IIT Calender</th>
+	<td>IIT calender information</td>
+	</tr>
+	</table>
 	<!--carousel for news-->
 	<section class="weather">
 	
